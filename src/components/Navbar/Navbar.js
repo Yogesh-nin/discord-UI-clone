@@ -1,33 +1,33 @@
 import React from "react";
-import logo from "../../images/discord_mini_icon.png";
+import logo from "../../images/disc_icon.png";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
-          <div className="container">
-        <div className="row d-flex justify-content-between">
+          <div className="container my-2">
+        <div className="row d-flex justify-content-between text-white">
           <div className="col-2">
-            <a className="navbar-brand" href="/"><img className="d-inline-block align-center" src={logo} alt="logo" /> Discord</a>
+            <a className="navbar-brand text-white" href="/"><img className="d-inline-block align-center" src={logo} alt="logo" width="28px" height="20px" /> Discord</a>
           </div>
-          <div className="col-8 ">
+          <div className="col-8">
                 <ul class="navbar-nav mr-auto justify-content-center">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Download</a>
+                        <a class="nav-link  text-white" href="#">Download</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Nitro</a>
+                        <a class="nav-link  text-white" href="#">Nitro</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Safety</a>
+                        <a class="nav-link  text-white" href="#">Safety</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Support</a>
+                        <a class="nav-link text-white" href="#">Support</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link  text-white" href="#">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Careers</a>
+                        <a class="nav-link  text-white" href="#">Careers</a>
                     </li>
                 
                 

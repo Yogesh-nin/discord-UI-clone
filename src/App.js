@@ -4,7 +4,7 @@ import bg_image from './images/login_bg.png'
 function App() {
   return (
 
-  <div style={{ backgroundImage: `url(${bg_image})`}}>
+  <div >
     <Home />
   </div>
       

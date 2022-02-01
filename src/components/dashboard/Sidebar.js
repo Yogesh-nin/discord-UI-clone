@@ -2,6 +2,7 @@ import React from 'react';
 import favicon from '../../images/favicon.ico'
 import new_line from '../../images/new_line.png'
 import plus_icon from '../../images/plus.png'
+import Navbar_middle from './Navbar_middle';
 import Sidebox from './Sidebox'
 
 const Sidebar = () => {
@@ -27,6 +28,7 @@ const Sidebar = () => {
           
         </div>
         <Sidebox />
+        <Navbar_middle />
     </div>
 </div>
  

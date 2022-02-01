@@ -5,7 +5,7 @@ import nitro from '../../images/nitro_icon.png'
 import plus_icon from '../../images/plus_icon.png'
 const Sidebox = () => {
   return(
-              <div className='col-2' style={{backgroundColor: '#2f3136', color: '#b9bbbe'}}>
+              <div className='col-auto' style={{backgroundColor: '#2f3136', color: '#b9bbbe'}}>
                   <form className='my-2'>
                       <input type="text" placeholder='Find or start a conversation' className='form-control' id='searchBox' />
                   </form>

@@ -10,24 +10,24 @@ function Navbar() {
             <a className="navbar-brand text-white" href="/"><img className="d-inline-block align-center" src={logo} alt="logo" width="28px" height="20px" /> Discord</a>
           </div>
           <div className="col-8">
-                <ul class="navbar-nav mr-auto justify-content-center">
-                    <li class="nav-item active">
-                        <a class="nav-link  text-white" href="#">Download</a>
+                <ul className="navbar-nav mr-auto justify-content-center">
+                    <li className="nav-item active">
+                        <a className="nav-link  text-white" href="#">Download</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link  text-white" href="#">Nitro</a>
+                    <li className="nav-item">
+                        <a className="nav-link  text-white" href="#">Nitro</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link  text-white" href="#">Safety</a>
+                    <li className="nav-item">
+                        <a className="nav-link  text-white" href="#">Safety</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Support</a>
+                    <li className="nav-item">
+                        <a className="nav-link text-white" href="#">Support</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link  text-white" href="#">Blog</a>
+                    <li className="nav-item">
+                        <a className="nav-link  text-white" href="#">Blog</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link  text-white" href="#">Careers</a>
+                    <li className="nav-item">
+                        <a className="nav-link  text-white" href="#">Careers</a>
                     </li>
                 
                 

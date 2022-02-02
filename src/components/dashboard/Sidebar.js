@@ -29,6 +29,8 @@ const Sidebar = () => {
         </div>
         <Sidebox />
         <Navbar_middle />
+        
+        
     </div>
 </div>
  

@@ -1,14 +1,12 @@
 import React from "react";
 import friend from "../../images/friends.png";
-import OnlineFriend from "./OnlineFriend";
+
 
 const Navbar_middle = (props) => {
   return (
     <>
-      <div className="col g-0" style={{backgroundColor: '#36393f', color:'#8e9297' }}>
+      <div>
         <div className="navbar navbar-expand-lg" style={{borderBottom: '1px solid black'}}>
-          <div className="container-fluid">
-            <div className="container my-2">
               <div className="row text-white align-items-center">
                 <div className="col-auto nav-brand">
                   <img src={friend} /> Friends |
@@ -18,7 +16,7 @@ const Navbar_middle = (props) => {
                     <div className="navbar-nav mr-auto align-items-center">
                       <div className="col-auto nav-item active">
                         <a className="nav-link  text-white" href="#">
-                          Online
+                          Online 
                         </a>
                       </div>
                       <div className="col-auto nav-item">
@@ -48,10 +46,7 @@ const Navbar_middle = (props) => {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
         </div>
-        <OnlineFriend />
       </div>
       
     </>

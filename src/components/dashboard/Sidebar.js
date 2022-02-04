@@ -6,7 +6,7 @@ import plus_icon from '../../images/plus.png'
 const Sidebar = () => {
   return(
 
-        <div className="col-auto " style={{backgroundColor: '#202225'}}>
+        <div className="col-auto" style={{backgroundColor: '#202225'}}>
             <div className="d-flex flex-column align-items-center align-items-sm-start pt-2 min-vh-100">
                 <a href="/" className="d-flex align-items-center pb-3 mt-4">
                     <img className='rounded-4' src={favicon} alt="" height='50px'/>

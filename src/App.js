@@ -1,14 +1,11 @@
 import './App.css';
-import Login from './components/auth/Login';
-import Register from './components/auth/Register';
-import Home from './components/Home/Home';
-import Sidebar from './components/dashboard/Sidebar';
-import bg_image from './images/login_bg.png'
+import Dashboard from './components/dashboard/Dashboard';
+
 function App() {
   return (
 
-  <div >
-    <Sidebar />
+  <div>
+    <Dashboard />
   </div>
       
   );

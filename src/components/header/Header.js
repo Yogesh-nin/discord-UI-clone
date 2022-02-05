@@ -19,7 +19,7 @@ function Header(){
                         <div className="col-6 my-4">
                             <h1 className='text-center my-4' style={{fontWeight: "800", fontSize: "56px", lineHeight: "95%", fontFamily: 'Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif' }} >IMAGINE A PLACE...</h1>
                             <div className="my-4" style={{fontSize: "18px"}}>
-                                <p>...where you can belong to a school club, a gaming group and a worldwide art community.Where just you and handful of friends can spend time together. A place that makes it easy to talk everyday and hang out more often</p>
+                                <p className='text-center'>...where you can belong to a school club, a gaming group and a worldwide art community.Where just you and handful of friends can spend time together. A place that makes it easy to talk everyday and hang out more often</p>
                             </div>
                             <div className="row my-4">
                                 <div className="col-5 offset-1 d-grid">

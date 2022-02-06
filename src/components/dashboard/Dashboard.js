@@ -15,8 +15,8 @@ const Dashboard = () => {
               <div className="col vh-100 g-0" style={{backgroundColor: '#36393f', color:'#8e9297' }}>
                 <Navbar_middle />
                 <div className='row flex-nowrap g-0'>
-                  <OnlineFriend />
-                  {/* <AddFriend /> */}
+                  {/* <OnlineFriend /> */}
+                  <AddFriend />
                   <RightBox />
                 </div>
                

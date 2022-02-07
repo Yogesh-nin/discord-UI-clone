@@ -7,7 +7,7 @@ const Sidebox = () => {
   return(
               <div className='col-2' style={{backgroundColor: '#2f3136', color: '#b9bbbe'}}>
                   <form className='my-2'>
-                      <input type="text" placeholder='Find or start a conversation' className='form-control' id='searchBox' />
+                      <input type="text" placeholder='Find or start a conversation' className='form-control border-0 text-white' id='searchBox' style={{backgroundColor: '#202225'}} />
                   </form>
                   <div className='my-1'>
                       <img src={friend} /> Friends

@@ -9,47 +9,47 @@ const Sidebox = () =>{
             
             <div className='mb-4'>
                 {/* <span style={{fontSize: '25'}}># </span> */}
-                <i class="fas fa-hashtag"></i>
+                <i className="fas fa-hashtag"></i>
                 rules
             </div>
 
             <div className='my-2'>
-                <i class="fas fa-angle-down"> </i> <span>TEXT-CHANNELS</span> 
+                <i className="fas fa-angle-down"> </i> <span>TEXT-CHANNELS</span> 
 
                 <div className='px-2'>
 
                     <div className='my-3'>
-                        <i class="fas fa-hashtag"></i> algorithm
+                        <i className="fas fa-hashtag"></i> algorithm
                     </div>
                     <div className='my-3'>
-                        <i class="fas fa-hashtag"></i> announcements
+                        <i className="fas fa-hashtag"></i> announcements
                     </div>
                     <div className='my-3'>
-                        <i class="fas fa-hashtag"></i> blogging
+                        <i className="fas fa-hashtag"></i> blogging
                     </div>
                     <div className='my-3'>
-                        <i class="fas fa-hashtag"></i> collaborators
+                        <i className="fas fa-hashtag"></i> collaborators
                     </div>
                     <div className='my-3'>
-                        <i class="fas fa-hashtag"></i> course-ideas
+                        <i className="fas fa-hashtag"></i> course-ideas
                     </div>
                     <div className='my-3'>
-                        <i class="fas fa-hashtag"></i> machine-learning
+                        <i className="fas fa-hashtag"></i> machine-learning
                     </div>
                     <div className='my-3'>
-                        <i class="fas fa-hashtag"></i> machine-learning
+                        <i className="fas fa-hashtag"></i> machine-learning
                     </div>
                     <div className='my-3'>
-                        <i class="fas fa-hashtag"></i> machine-learning
+                        <i className="fas fa-hashtag"></i> machine-learning
                     </div>
                     <div className='my-3'>
-                        <i class="fas fa-hashtag"></i> machine-learning
+                        <i className="fas fa-hashtag"></i> machine-learning
                     </div>
                     <div className='my-3'>
-                        <i class="fas fa-hashtag"></i> machine-learning
+                        <i className="fas fa-hashtag"></i> machine-learning
                     </div>
                     <div className='my-3'>
-                        <i class="fas fa-hashtag"></i> machine-learning
+                        <i className="fas fa-hashtag"></i> machine-learning
                     </div>
                 </div>
             </div>
@@ -61,15 +61,15 @@ const Sidebox = () =>{
                     </div>
                 </div>
 
-                <div className='col-auto d-flex align-items-center m-0' style={{fontSize: '13px', fontWeight: '600'}}>
+                <div className='col-auto d-flex align-items-center' style={{fontSize: '13px', fontWeight: '600'}}>
                     yogesh <br />
                     #8454
                 </div>
 
                 <div className='col d-flex align-items-center justify-content-around'>
-                    <i class="fas fa-microphone"> </i>
-                    <i class="fas fa-headphones"> </i>
-                    <i class="fas fa-cog"> </i>
+                    <i className="fas fa-microphone"> </i>
+                    <i className="fas fa-headphones"> </i>
+                    <i className="fas fa-cog"> </i>
                 </div>
                 
             </div>

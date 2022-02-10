@@ -6,6 +6,7 @@ import RightBox from './RightBox';
 import Sidebar from './Sidebar';
 import Sidebox from './servers/server1/Sidebox';
 import Navbar from './servers/server1/Navbar'
+import MessageBox from './servers/server1/MessageBox';
 
 const Dashboard = () => {
   return(
@@ -20,6 +21,7 @@ const Dashboard = () => {
                   {/* <OnlineFriend />
                   <AddFriend />
                   <RightBox /> */}
+                  <MessageBox />
                 </div>
                
                 

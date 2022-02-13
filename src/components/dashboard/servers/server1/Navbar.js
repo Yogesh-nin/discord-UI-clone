@@ -3,9 +3,9 @@ import q_mark from '../../../../images/question_mark_icon.png'
 const Navbar = () =>{
     return(
         <div>
-        <div className="navbar navbar-expand-lg" >
+        <div className="navbar" >
             <div className='container-fluid'>
-            <div className="row text-white align-items-center g-0" style={{width: 'inherit'}}>
+            <div className="row text-white align-items-center" style={{width: 'inherit'}}>
                 <div className="col-auto mx-2 my-1">
                     <div className='mx-3'>
                         <i className="fas fa-hashtag"> &nbsp;</i>

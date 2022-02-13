@@ -2,7 +2,8 @@ import React from 'react';
 import AddFriend from './AddFriend/AddFriend';
 import Navbar_middle from './Navbar_middle';
 import OnlineFriend from './OnlineFriend';
-import RightBox from './RightBox';
+// import RightBox from './RightBox';
+import RightBox from './servers/server1/RightBox'
 import Sidebar from './Sidebar';
 import Sidebox from './servers/server1/Sidebox';
 import Navbar from './servers/server1/Navbar'
@@ -19,9 +20,10 @@ const Dashboard = () => {
                 <Navbar />
                 <div className='row flex-nowrap g-0'>
                   {/* <OnlineFriend />
-                  <AddFriend />
-                  <RightBox /> */}
+                  <AddFriend /> */}
+                  
                   <MessageBox />
+                  <RightBox />
                 </div>
                
                 

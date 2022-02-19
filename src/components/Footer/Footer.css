@@ -2,10 +2,10 @@
     padding: 50px 50px;
 }
 
-.heading{
+.heading_footer{
     font-weight: 800;
     color: #5865f2;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .social_logos{
@@ -14,4 +14,21 @@
 
 .list_title{
     color: #5865f2;
+    margin-bottom: 10px;
+    margin-top: 6px;
+}
+
+.list-item{
+    margin-bottom: 10px;
+}
+
+.discord_button{
+    background-color: #5865f2;
+    color: #ffffff;
+}
+
+.discord_logo{
+    font-weight: 600;
+    font-size: 20px;
+    
 }

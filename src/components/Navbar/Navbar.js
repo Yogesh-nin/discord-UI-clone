@@ -6,7 +6,7 @@ const Navbar = () =>{
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
-        <div className="container my-4 container_content">
+        <div className="container my-4 container-content">
           <div className="row d-flex justify-content-between text-white px-4">
             <div className="col-2">
               <a className="navbar-brand text-white" href="/">
@@ -14,8 +14,8 @@ const Navbar = () =>{
                   className="d-inline-block align-center"
                   src={logo}
                   alt="logo"
-                  width="28px"
-                  height="20px"
+                  width="35px"
+                  height="25px"
                 />
                 &nbsp; Discord
               </a>

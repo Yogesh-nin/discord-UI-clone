@@ -1,0 +1,16 @@
+.row-content{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    padding: 50px 120px;
+}
+
+.description_heading{
+    font-weight: 700;
+    font-size: 48px;
+    font-family: "Ginto Normal","Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.row_hanging_out{
+    background-color: #f6f6f6;
+}

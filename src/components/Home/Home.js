@@ -5,6 +5,7 @@ import first_img from "../../images/invite_only_landing.svg"
 import second_img from '../../images/hanging_out_easy_landing.svg'
 import third_img from '../../images/fandom_landing.svg'
 import fourth_img from '../../images/just_chiling_landing.svg'
+
 const Home = () => {
   return(
       <>

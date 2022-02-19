@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../images/disc_icon.png";
 import './Navbar.css'
+
 const Navbar = () =>{
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
@@ -54,10 +55,9 @@ const Navbar = () =>{
               </ul>
             </div>
             <div className="col-2 justify-content-center">
-              <button type="button" className="btn btn-light rounded-pill">
-                {" "}
-                Login{" "}
-              </button>
+              <a type="button" className="btn btn-light rounded-pill" href='/login'>
+                &nbsp; Login &nbsp;
+              </a>
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@
     margin-top: 50px;
     margin-bottom: 50px;
 
-    padding: 50px 120px;
+    padding: 50px 140px;
 }
 
 .description_heading{
@@ -11,6 +11,6 @@
     font-family: "Ginto Normal","Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
-.row_hanging_out{
+.row-alternate{
     background-color: #f6f6f6;
 }

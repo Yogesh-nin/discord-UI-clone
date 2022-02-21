@@ -1,0 +1,21 @@
+.login_background{
+    background-repeat: no-repeat;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.login_left{
+    margin: 15px 4px;
+}
+
+.login_heading{
+    font-weight: 600;
+}
+
+.muted_text{
+    color: #dcddde;
+}

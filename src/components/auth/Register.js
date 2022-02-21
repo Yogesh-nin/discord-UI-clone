@@ -2,6 +2,7 @@ import React from 'react';
 import logo from "../../images/disc_icon.png";
 import login_bg from '../../images/login_bg.png'
 import qr_code from '../../images/qr_code.png'
+import { Link } from 'react-router-dom'
 const Register = () => {
     const style_bg = {
         backgroundImage: `url(${login_bg})`,
@@ -47,7 +48,7 @@ const Register = () => {
                     </div>
 
                     <div className='mt-1 mb-4'>
-                        <a href='' className='text-decoration-none'>Already have an account?</a>
+                        <Link to='/login' className='text-decoration-none'>Already have an account?</Link>
                     </div>
                     
                   </div>

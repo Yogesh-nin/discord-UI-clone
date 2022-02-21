@@ -4,7 +4,7 @@ import facebook from "../../images/fb_icon.png";
 import instagram from "../../images/ig_icon.png";
 import twitter from "../../images/tt_icon.png";
 import logo from "../../images/disc_icon.png";
-
+import { Link } from 'react-router-dom'
 import youtube from "../../images/youTube_icon.png";
 import "./Footer.css";
 
@@ -38,90 +38,90 @@ const Footer = () => {
             <div className="row d-flex justify-content-between mx-4">
               <div className="col-2 mx-2">
                 <ul className="list-unstyled">
-                  <a>
+                  <Link className='list-item-link' to='#'>
                     <li className="list_title">Product</li>
-                  </a>
-                  <a>
+                  </Link>
+                  <Link className='list-item-link' to='#'>
                     <li className="list-item">Download</li>
-                  </a>
-                  <a>
+                  </Link>
+                  <Link className='list-item-link' to='#'>
                     <li className="list-item">Nitro</li>
-                  </a>
-                  <a>
+                  </Link>
+                  <Link className='list-item-link' to='#'>
                     <li className="list-item">Status</li>
-                  </a>
+                  </Link>
                 </ul>
               </div>
               <div className="col-2">
                 <ul className="list-unstyled">
-                  <a>
+                  <Link className='list-item-link' to='#'>
                     <li className="list_title">Company</li>
-                  </a>
-                  <a>
+                  </Link>
+                  <Link className='list-item-link' to='#'>
                     <li className="list-item">About</li>
-                  </a>
-                  <a>
+                  </Link>
+                  <Link className='list-item-link' to='#'>
                     <li className="list-item">Jobs</li>
-                  </a>
-                  <a>
+                  </Link>
+                  <Link className='list-item-link' to='#'>
                     <li className="list-item">Branding</li>
-                  </a>
-                  <a>
+                  </Link>
+                  <Link className='list-item-link' to='#'>
                     <li className="list-item">Newsroom</li>
-                  </a>
+                  </Link>
                 </ul>
               </div>
               <div className="col-2">
                 <ul className="list-unstyled">
-                  <a>
+                  <Link className='list-item-link' to='#'>
                     <li className="list_title">Resource</li>
-                  </a>
-                  <a>
+                  </Link>
+                  <Link className='list-item-link' to='#'>
                     <li className="list-item">Collage</li>
-                  </a>
-                  <a>
+                  </Link>
+                  <Link className='list-item-link' to='#'>
                     <li className="list-item">Support</li>
-                  </a>
-                  <a>
+                  </Link>
+                  <Link className='list-item-link' to='#'>
                     <li className="list-item">Safety</li>
-                  </a>
-                  <a>
+                  </Link>
+                  <Link className='list-item-link' to='#'>
                     <li className="list-item">Blog</li>
-                  </a>
-                  <a>
+                  </Link>
+                  <Link className='list-item-link' to='#'>
                     <li className="list-item">Feedbacks</li>
-                  </a>
-                  <a>
+                  </Link>
+                  <Link className='list-item-link' to='#'>
                     <li className="list-item">Developers</li>
-                  </a>
-                  <a>
+                  </Link>
+                  <Link className='list-item-link' to='#'>
                     <li className="list-item">StreamKit</li>
-                  </a>
+                  </Link>
                 </ul>
               </div>
               <div className="col-2">
                 <ul className="list-unstyled">
-                  <a>
+                  <Link className='list-item-link' to='#'>
                     <li className="list_title">Policies</li>
-                  </a>
-                  <a>
+                  </Link>
+                  <Link className='list-item-link' to='#'>
                     <li className="list-item">Terms</li>
-                  </a>
-                  <a>
+                  </Link>
+                  <Link className='list-item-link' to='#'>
                     <li className="list-item">Privacy</li>
-                  </a>
-                  <a>
+                  </Link>
+                  <Link className='list-item-link' to='#'>
                     <li className="list-item">Guidelines</li>
-                  </a>
-                  <a>
+                  </Link>
+                  <Link className='list-item-link' to='#'>
                     <li className="list-item">Acknowledgements</li>
-                  </a>
-                  <a>
+                  </Link>
+                  <Link className='list-item-link' to='#'>
                     <li className="list-item">Licenses</li>
-                  </a>
-                  <a>
+                  </Link>
+                  <Link className='list-item-link' to='#'>
                     <li className="list-item">Moderation</li>
-                  </a>
+                  </Link>
                 </ul>
               </div>
             </div>
@@ -136,9 +136,9 @@ const Footer = () => {
             </div>
 
             <div className="col-auto my-3 justify-content-center">
-              <a className="btn rounded-pill discord_button" href='/login'>
+              <Link className="btn rounded-pill discord_button" to='/login'>
                 &nbsp; Login &nbsp;
-              </a>
+              </Link>
             </div>
           </div>
 

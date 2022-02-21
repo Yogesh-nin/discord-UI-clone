@@ -4,9 +4,8 @@ import center_bg from '../../images/center_bg_landing_header.svg'
 import right_bg from '../../images/right_bg_landing_header.svg'
 import Navbar from '../Navbar/Navbar';
 import './Header.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-function Header(){
+const  Header = () => {
 
     
     return (

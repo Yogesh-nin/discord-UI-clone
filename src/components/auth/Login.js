@@ -15,29 +15,29 @@ const Login = () => {
                   </div>
               </div>
               <div className='row my-4 justify-content-center'>
-                  <div className='col-7 my-4 bg-dark text-white'>
+                  <div className='col-7 my-4 text-white login_box'>
                       <div className='row my-2'>
                           <div className='col-6 login_left'>
                               <h4 className='login_heading text-center'>Welcome Back!</h4>
                               <p className='text-center muted_text'>We're so excited to see you again!</p>
                               <form>
                                 <div className="mb-3">
-                                    <label for="email" className="form-label muted_text">EMAIL OR PHONE NUMBER</label>
-                                    <input type="email" className="form-control" id="email" />
+                                    <label for="email" className="form-label labels muted_text">EMAIL OR PHONE NUMBER</label>
+                                    <input type="email" className="form-control form_input" id="email" />
                                 </div>
                                 <div className="mb-3">
-                                    <label for="password" className="form-label muted_text">PASSWORD</label>
-                                    <input type="password" className="form-control" id="password" />
+                                    <label for="password" className="form-label labels muted_text">PASSWORD</label>
+                                    <input type="password" className="form-control form_input" id="password" />
                                 </div>
                                 
                               </form>
-                              <a href="#" className='muted_text'>forgot your password?</a>
+                              <a href="#" className='link'>forgot your password?</a>
 
                               <div className='col-12 d-grid my-4'>
-                                  <button className='btn btn-primary'>Login</button>
+                                  <button className='btn btn-lg submit_button'>Login</button>
                               </div>
-                              <span className='muted_text'>Need an account? </span>
-                              <Link className='muted_text' to="/register"> Register</Link>
+                              <span className='needAccount'>Need an account? </span>
+                              <Link className='link' to="/register"> Register</Link>
                               
                           </div>
                           <div className='col-5 login_right'>

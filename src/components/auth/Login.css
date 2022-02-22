@@ -7,7 +7,9 @@
     overflow: hidden;
     background-size: cover;
 }
-
+.login_box{
+    background-color: #2f3136;
+}
 .login_left{
     margin: 15px 4px;
 }
@@ -17,5 +19,45 @@
 }
 
 .muted_text{
-    color: #dcddde;
+    color: #8e9297;
+    font-size: 16px;
+}
+
+.labels{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+input {
+    background-color: #23272a;
+}
+
+.link{
+    color: #00b0f4;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: #00b0f4;
+}
+.needAccount{
+    font-size: 14px;
+    color: #72767d;
+}
+.form_input{
+    background-color: #292b2f;
+    color: #ffffff;
+}
+.submit_button{
+    background-color: #5865f2;
+    color: #ffffff;
+    font-size: 15px;
+
+}
+
+.submit_button:hover{
+    background-color: #404eed;
+    color: #ffffff;
 }

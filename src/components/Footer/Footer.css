@@ -27,6 +27,9 @@
     background-color: #5865f2;
     color: #ffffff;
 }
+.discord_button:hover{
+    color: #ffffff;
+}
 
 .discord_logo{
     font-weight: 600;

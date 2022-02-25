@@ -2,4 +2,32 @@
     font-size: 14px;
     font-weight: 600;
     color: #ffffff;
+    z-index: 1;
+}
+.navbar_button{
+    font-size: 14px;
+    padding: 10px 8px;
+    margin-right: 150px;
+}
+
+.nav-link{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.nav-title{
+    color: #ffffff;
+    margin-left: 150px;
+}
+.nav-title:hover{
+    color: #ffffff;
+}
+
+.navbar-toggler{
+    color: #ffffff;
 }

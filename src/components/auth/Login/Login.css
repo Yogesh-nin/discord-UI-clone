@@ -11,7 +11,11 @@
     background-color: #2f3136;
 }
 .login_left{
-    margin: 15px 4px;
+    margin: 20px 10px;
+    padding: 0px 30px;
+}
+.login_right{
+    margin: 50px 0px 50px 4px;
 }
 
 .login_heading{
@@ -61,4 +65,17 @@ input {
 .submit_button:hover{
     background-color: #404eed;
     color: #ffffff;
+}
+
+.qr_down{
+    margin-top: 40px; 
+}
+
+.qr_heading{
+    font-weight: 600;
+    font-size: 23px;
+}
+.qr_para{
+    color: #8e9297;
+    font-size: 15px;
 }

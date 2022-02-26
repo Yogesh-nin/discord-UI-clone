@@ -38,9 +38,9 @@ const Login = ({setLoginUser}) => {
                   </div>
               </div>
               <div className='row my-4 justify-content-center'>
-                  <div className='col-7 my-4 text-white login_box'>
+                  <div className='col-7 my-4 text-white login_box'> 
                       <div className='row my-2'>
-                          <div className='col-6 login_left'>
+                          <div className='col-7 login_left'>
                               <h4 className='login_heading text-center'>Welcome Back!</h4>
                               <p className='text-center muted_text'>We're so excited to see you again!</p>
                               <form>
@@ -63,15 +63,15 @@ const Login = ({setLoginUser}) => {
                               <Link className='link' to="/register"> Register</Link>
                               
                           </div>
-                          <div className='col-5 login_right'>
-                              <div className='row justify-content-center'>
+                          <div className='col-4 login_right'>
+                              <div className='row justify-content-center '>
                                   <div className='col-8'>
-                                    <img className='img-thumbnail' src={qr_code}/>
+                                    <img className='img-thumbnail' src={qr_code} />
                                   </div>
                               </div>
-                              <div className='my-2'>
-                                <h4 className='my-2'>Log In with QR Code</h4>
-                                <p className='my-2'>Scan this with the Discord mobile app to log in instantly</p>
+                              <div className='qr_down'>
+                                <h4 className='my-2 qr_heading text-center'>Log In with QR Code</h4>
+                                <p className='my-2 text-center qr_para'>Scan this with the Discord mobile app to log in instantly</p>
                               </div>
                                                           
                           </div>

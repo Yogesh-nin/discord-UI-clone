@@ -1,7 +1,7 @@
 import React from 'react';
-import favicon from '../../images/favicon.ico'
-import new_line from '../../images/new_line.png'
-import plus_icon from '../../images/plus.png'
+import favicon from '../../../../images/favicon.ico'
+import new_line from '../../../../images/new_line.png'
+import plus_icon from '../../../../images/plus.png'
 
 const Sidebar = () => {
   return(

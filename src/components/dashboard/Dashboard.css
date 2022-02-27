@@ -1,0 +1,15 @@
+.active{
+    background-color:  #4f545c;
+}
+.active:hover{
+    background-color: #4f545c;
+}
+
+.navs{
+    padding: 4px 3px;
+}
+
+.navs:hover{
+    text-decoration: none;
+    
+}

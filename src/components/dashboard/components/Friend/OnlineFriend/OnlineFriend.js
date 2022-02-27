@@ -1,6 +1,6 @@
 import React from 'react';
-import no_friend from '../../images/no_online_friends.png'
-import RightBox from './RightBox'
+import no_friend from '../../../../../images/no_online_friends.png'
+
 const OnlineFriend = () => {
   return(
     <>

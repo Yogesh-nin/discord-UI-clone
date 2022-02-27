@@ -1,8 +1,8 @@
 import React from 'react';
-import friend from '../../images/friends.png'
-import stage_discovery from '../../images/stage_discovery.png'
-import nitro from '../../images/nitro_icon.png'
-import plus_icon from '../../images/plus_icon.png'
+import friend from '../../../../images/friends.png'
+import stage_discovery from '../../../../images/stage_discovery.png'
+import nitro from '../../../../images/nitro_icon.png'
+import plus_icon from '../../../../images/plus_icon.png'
 const Sidebox = () => {
   return(
               <div className='col-2' style={{backgroundColor: '#2f3136', color: '#b9bbbe'}}>

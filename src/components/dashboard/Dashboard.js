@@ -1,9 +1,10 @@
 import React from 'react';
 import Sidebar from './components/Sidebar/Sidebar'
-import Sidebox from './Sidebox'
-import Navbar_middle from './Navbar_middle'
-import OnlineFriend from './OnlineFriend'
-import RightBox from './RightBox';
+import Sidebox from './components/Sidebox/Sidebox'
+import Navbar_middle from './components/Friend/FriendNavbar/Navbar_middle'
+import OnlineFriend from './components/Friend/OnlineFriend/OnlineFriend'
+import RightBox from './components/Friend/ActiveFriend/RightBox';
+import './Dashboard.css'
 const Dashboard = () => {
   return(
       <div className='container-fluid vh-100'>

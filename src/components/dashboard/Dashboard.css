@@ -1,3 +1,7 @@
+.dashboard{
+    z-index: 0;
+}
+
 .active{
     background-color:  #4f545c;
 }
@@ -6,10 +10,14 @@
 }
 
 .navs{
-    padding: 4px 3px;
+    padding: 4px 5px;
+    border-radius: 4px;
 }
 
 .navs:hover{
+    background-color: #4f545c;
+}
+
+.nav_middle_link:hover{
     text-decoration: none;
-    
 }

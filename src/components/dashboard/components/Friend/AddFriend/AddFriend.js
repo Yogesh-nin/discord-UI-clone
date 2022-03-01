@@ -1,5 +1,5 @@
 import React from 'react';
-import add_friend from '../../../images/add_friend_icon.svg'
+import add_friend from '../../../../../images/add_friend_icon.svg'
 const AddFriend = () => {
   return(
       <>

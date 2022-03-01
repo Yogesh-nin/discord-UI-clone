@@ -1,6 +1,7 @@
 import React from "react";
 import friend from "../../../../../images/friends.png";
 import './Navbar_middle.css'
+import { Link } from 'react-router-dom'
 
 const Navbar_middle = (props) => {
   return (
@@ -15,32 +16,32 @@ const Navbar_middle = (props) => {
                   <div className="row">
                     <div className="navbar-nav mr-auto align-items-center">
                       <div className="col-auto mx-1 nav-item">
-                        <a className="nav-link nav_middle_link text-white" href="#">
+                        <Link className="nav-link nav_middle_link text-white" to="/dashboard/">
                           <span className="navs active"> Online</span>   
-                        </a>
+                        </Link >
                       </div>
                       <div className="col-auto nav-item mx-1">
-                        <a className="nav-link nav_middle_link text-white" href="#">
+                        <Link className="nav-link nav_middle_link text-white" to="/all">
                           <span className="navs"> All</span>
-                        </a>
+                        </Link >
                       </div>
                       <div className="col-auto nav-item mx-1">
-                        <a className="nav-link nav_middle_link text-white" href="#">
+                        <Link className="nav-link nav_middle_link text-white" to="/pending">
                         <span className="navs">Pending</span>
-                        </a>
+                        </Link >
                       </div>
                       <div className="col-auto nav-item mx-1">
-                        <a className="nav-link nav_middle_link text-white" href="#">
+                        <Link className="nav-link nav_middle_link text-white" to="/blocked">
                           <span className="navs">Blocked</span>
-                        </a>
+                        </Link >
                       </div>
                       <div className="col-auto nav-item mx-1">
-                        <a
+                        <Link
                           className="text-white btn btn-success btn-sm"
-                          href="#"
+                          to="/dashboard/addfriend"
                         >
                           Add friend
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>

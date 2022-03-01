@@ -20,7 +20,7 @@ const  Header = () => {
 
                         <div className="row buttons_row">
                           <div className="col-5 offset-1 d-grid">
-                              <a href='#' className="btn btn-light rounded-pill btn-block btn-lg"> Download for mac </a>
+                              <a href='#' className="btn btn-light rounded-pill btn-block btn-lg"> <i class="fas fa-arrow-to-bottom"></i> Download for mac </a>
                           </div>
                           <div className="col-5 d-grid">
                               <a href='#' className="btn btn-dark rounded-pill btn-lg"> open discord in browser </a>

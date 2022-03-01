@@ -4,7 +4,7 @@ import Login from './components/auth/Login/Login'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Register from './components/auth/Register/Register'
 import Dashboard from './components/dashboard/Dashboard'
-import AddFriend from './components/dashboard/components/Friend/AddFriend/AddFriend'
+import Server from './components/dashboard/servers/server'
 
 function App() {
   return (
@@ -16,8 +16,9 @@ function App() {
           <Route exact path='/register' element={<Register />} />
           <Route exact path='/dashboard/addfriend' element={<Dashboard component='AddFriend' />} />
           <Route exact path='/dashboard/' element={<Dashboard component='Online' />} />
+          <Route exact path='/dashboard/server-1' element={<Server />} />
             
-          
+           
           
           
         </Routes>

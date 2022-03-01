@@ -21,17 +21,17 @@ const Navbar_middle = (props) => {
                         </Link >
                       </div>
                       <div className="col-auto nav-item mx-1">
-                        <Link className="nav-link nav_middle_link text-white" to="/all">
+                        <Link className="nav-link nav_middle_link text-white" to="/dashboard/all">
                           <span className="navs"> All</span>
                         </Link >
                       </div>
                       <div className="col-auto nav-item mx-1">
-                        <Link className="nav-link nav_middle_link text-white" to="/pending">
+                        <Link className="nav-link nav_middle_link text-white" to="/dashboard/pending">
                         <span className="navs">Pending</span>
                         </Link >
                       </div>
                       <div className="col-auto nav-item mx-1">
-                        <Link className="nav-link nav_middle_link text-white" to="/blocked">
+                        <Link className="nav-link nav_middle_link text-white" to="/dashboard/blocked">
                           <span className="navs">Blocked</span>
                         </Link >
                       </div>

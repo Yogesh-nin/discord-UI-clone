@@ -1,5 +1,6 @@
 import React from 'react'
 import icon from '../../../../images/disc_icon.png'
+import Profile from '../../components/ProfileTab/Profile';
 const Sidebox = () =>{
     return(
         <div className='col-2' style={{backgroundColor: '#2f3136', color: '#ffffff'}}>
@@ -54,25 +55,7 @@ const Sidebox = () =>{
                 </div>
             </div>
 
-            <div className='row profile' style={{backgroundColor: '#23272a', position: 'fixed', bottom: 0, width: 'inherit'}}>
-                <div className='col-auto g-0 mx-1 my-2'>
-                    <div className='rounded-circle d-flex justify-content-center align-items-center' style={{backgroundColor: '#ed4245', height: "50px", width: '50px'}}>
-                        <img src={icon} alt="" height='20px' />
-                    </div>
-                </div>
-
-                <div className='col-auto d-flex align-items-center' style={{fontSize: '13px', fontWeight: '600'}}>
-                    yogesh <br />
-                    #8454
-                </div>
-
-                <div className='col d-flex align-items-center justify-content-around'>
-                    <i className="fas fa-microphone"> </i>
-                    <i className="fas fa-headphones"> </i>
-                    <i className="fas fa-cog"> </i>
-                </div>
-                
-            </div>
+            <Profile />
 
         </div>
     )

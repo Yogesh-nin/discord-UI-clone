@@ -16,6 +16,9 @@ function App() {
           <Route exact path='/register' element={<Register />} />
           <Route exact path='/dashboard/addfriend' element={<Dashboard component='AddFriend' />} />
           <Route exact path='/dashboard/' element={<Dashboard component='Online' />} />
+          <Route exact path='/dashboard/Pending' element={<Dashboard component='Pending' />} />
+          <Route exact path='/dashboard/All' element={<Dashboard component='All' />} />
+          <Route exact path='/dashboard/blocked' element={<Dashboard component='Blocked' />} />
           <Route exact path='/dashboard/server-1' element={<Server />} />
             
            

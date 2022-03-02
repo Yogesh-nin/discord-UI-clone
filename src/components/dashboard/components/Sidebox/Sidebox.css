@@ -1,0 +1,17 @@
+.sidebox{
+    background-color: #2f3136;
+    color: #b9bbbe;
+}
+
+.sidebox_link{
+    color: inherit;
+    text-decoration: none;
+}
+.sidebox_link:hover{
+    color: inherit;
+}
+
+#searchBox{
+    background-color: #202225;
+    font-size: 12px;
+}

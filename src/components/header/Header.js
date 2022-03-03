@@ -4,6 +4,7 @@ import center_bg from '../../images/center_bg_landing_header.svg'
 import right_bg from '../../images/right_bg_landing_header.svg'
 import Navbar from '../Navbar/Navbar';
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 const  Header = () => {
 
@@ -20,10 +21,10 @@ const  Header = () => {
 
                         <div className="row buttons_row">
                           <div className="col-5 offset-1 d-grid">
-                              <a href='#' className="btn btn-light rounded-pill btn-block btn-lg"> <i class="fas fa-arrow-to-bottom"></i> Download for mac </a>
+                              <a href='https://discord.com/download' target='_blank' className="btn btn-light rounded-pill btn-block btn-lg header_btn" id='download_btn'> <i className="fas fa-arrow-to-bottom"></i> Download for windows </a>
                           </div>
                           <div className="col-5 d-grid">
-                              <a href='#' className="btn btn-dark rounded-pill btn-lg"> open discord in browser </a>
+                              <Link to='/dashboard' className="btn btn-dark rounded-pill btn-lg header_btn open_btn" id='open_btn'> open discord in browser </Link>
                           </div>
                       </div>
                     </div>

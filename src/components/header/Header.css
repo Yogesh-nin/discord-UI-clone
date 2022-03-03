@@ -62,3 +62,14 @@
     font-size: 18px;
     margin-top: 50px;
 }
+
+.header_btn{
+    z-index: 1;
+}
+
+#download_btn:hover{
+    color: #5865f2;
+}
+#open_btn:hover{
+    background-color: #2f3136;
+}

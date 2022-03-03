@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Home from './components/Home/Home'
 import Login from './components/auth/Login/Login'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
@@ -7,6 +7,7 @@ import Dashboard from './components/dashboard/Dashboard'
 import Server from './components/dashboard/servers/server'
 
 function App() {
+
   return (
     <div>
       <BrowserRouter>

@@ -23,5 +23,5 @@
 }
 
 .middle_row_content{
-    height:inherit;
+    height:calc()
 }

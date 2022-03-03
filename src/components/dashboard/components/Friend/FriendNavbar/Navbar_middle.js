@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import friend from "../../../../../images/friends.png";
 import './Navbar_middle.css'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 const Navbar_middle = (props) => {
+
+  const location = useLocation();
+  const [url, setUrl] = useState(null);
+  useEffect(() => {
+    setUrl(location.pathname);
+  }, [location]);
+
   return (
     <>
       <div>
@@ -16,23 +23,23 @@ const Navbar_middle = (props) => {
                   <div className="row">
                     <div className="navbar-nav mr-auto align-items-center">
                       <div className="col-auto mx-1 nav-item">
-                        <Link className="nav-link nav_middle_link text-white" to="/dashboard/">
-                          <span className="navs active"> Online</span>   
+                        <Link className="nav-link nav_middle_link text-white" to="/dashboard">
+                          <span className={`navs ${url === '/dashboard' ? 'active' : ''} `}> Online</span>   
                         </Link >
                       </div>
                       <div className="col-auto nav-item mx-1">
                         <Link className="nav-link nav_middle_link text-white" to="/dashboard/all">
-                          <span className="navs"> All</span>
+                          <span className={`navs ${url === '/dashboard/all' ? 'active' : ''} `}> All</span>
                         </Link >
                       </div>
                       <div className="col-auto nav-item mx-1">
                         <Link className="nav-link nav_middle_link text-white" to="/dashboard/pending">
-                        <span className="navs">Pending</span>
+                        <span className={`navs ${url === '/dashboard/pending' ? 'active' : ''} `}>Pending</span>
                         </Link >
                       </div>
                       <div className="col-auto nav-item mx-1">
                         <Link className="nav-link nav_middle_link text-white" to="/dashboard/blocked">
-                          <span className="navs">Blocked</span>
+                          <span className={`navs ${url === '/dashboard/blocked' ? 'active' : ''} `}>Blocked</span>
                         </Link >
                       </div>
                       <div className="col-auto nav-item mx-1">

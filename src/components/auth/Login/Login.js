@@ -23,7 +23,7 @@ const Login = ({setLoginUser}) => {
     
     const login =(e)=>{
         e.preventDefault()
-        axios.post("http://localhost:6969/login",user)
+        axios.post("http://localhost:5000/user/login",user)
         .then(res=>{alert(res.data.message)
         setLoginUser(res.data.user)
     history.push("/")})

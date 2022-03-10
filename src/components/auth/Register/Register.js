@@ -24,7 +24,7 @@ const Register = () => {
         e.preventDefault();
         const {username,email,password} = user
         if(username && email && password){
-            axios.post("http://localhost:6969/Register",user )
+            axios.post("http://localhost:5000/user/register",user )
             .then(res=>console.log(res))
         }
         else{
@@ -58,7 +58,7 @@ const Register = () => {
                         </div>
                         <div className="mb-3">
                             <label for="password" className="form-label labels">PASSWORD</label>
-                            <input type="password" className="form-control form_input" id="password" name='passsword' value={user.password} onChange={handleChange} />
+                            <input type="text" className="form-control form_input" id="password" name='password' value={user.password} onChange={handleChange} />
                         </div>
                                 
                     </form>

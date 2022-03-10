@@ -12,8 +12,8 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route exact path='/' element={<Home />} />
-          <Route exact path='/login' element={<Login setLoginUser={setLoginUser} />} />
+          <Route exact path='/discord-UI-clone/' element={<Home />} />
+          <Route exact path='login' element={<Login setLoginUser={setLoginUser} />} />
           <Route exact path='/register' element={<Register />} />
           <Route exact path='/dashboard/addfriend' element={<Dashboard component='AddFriend'  />} />
           <Route exact path='/dashboard/' element={ <Dashboard component='Online' />} />

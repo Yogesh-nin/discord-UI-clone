@@ -1,7 +1,8 @@
 {
   "name": "discord-clone",
-  "homepage": "https://Yogesh-nin.github.io/discord-UI-clone",
+  "homepage": "https://Yogesh-nin.github.io",
   "version": "0.1.0",
+  "main": "src/",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
